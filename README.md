@@ -1,13 +1,13 @@
 # System-Programming-in-C
-This repository contains a collection of simple C programs and also Linux Command implemented in C that demonstrate different aspects of programming on Linux. Some of the example programs lack complete error checking (i.e., they don't check the return values for some functions to look for errors). Some of the example programs are intended for you to run multiple times and try editing. If you are looking for information about how to use a particular function or concept, you can mail <mrcse1654@gmail.com>
+This repository contains a collection of simple C programs and also Linux Command implemented in C that demonstrate different aspects of programming on Linux. Some of the example programs lack complete error checking (i.e., they don't check the return values for some functions to look for errors). Some of the example programs are intended for you to run multiple times and try editing. If you are looking for information about how to use a particular function or concept, you can [mail](mrcse1654@gmail.com) <mrcse1654@gmail.com>
 
 All programs should compile and run on modern Linux machines. Compile all of them by typing "make" and clean up all binaries by typing "make clean". Some of these programs may have the same names as programs in /usr/bin or similar, so you need to run them as "./programName" to ensure that you are using the right program.
 
 Downloading
 =============
 
-To download the latest version of this repository in a ZIP file, use this link:<br> 
-https://github.com/mrcse/System-Programming-in-C/archive/main.zip
+To download the latest version of this repository in a ZIP file, use this [link](https://github.com/mrcse/System-Programming-in-C/archive/main.zip):<br> 
+<https://github.com/mrcse/System-Programming-in-C/archive/main.zip>
 
 To download this repository onto a Linux machine that has git installed, try:
 
