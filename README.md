@@ -6,18 +6,19 @@ All programs should compile and run on modern Linux machines. Compile all of the
 Downloading
 =============
 
-To download the latest version of this repository in a ZIP file, use this link:   https://github.com/mrcse/System-Programming-in-C/archive/master.zip
+To download the latest version of this repository in a ZIP file, use this link:<br> 
+https://github.com/mrcse/System-Programming-in-C/archive/main.zip
 
 To download this repository onto a Linux machine that has git installed, try:
 
     git clone https://github.com/mrcse/System-Programming-in-C.git
-	  cd sys-prog-examples
+    cd sys-prog-examples
 
-To ensure that your copy of the repository is up-to-date, run the following when you are in the sys-prog-examples directory:
+To ensure that your copy of the repository is up-to-date, run the following when you are in the System-Programming-in-C directory:
 
     git pull
 
-If you want to ensure that your copy of the repository exactly matches the latest version of the this repository, run the following when you are in the sys-prog-examples directory (this will delete any local files you added to the directory!):
+If you want to ensure that your copy of the repository exactly matches the latest version of the this repository, run the following when you are in the System-Programming-in-C directory (this will delete any local files you added to the directory!):
 
 	git fetch --all
 	git reset --hard origin/master
