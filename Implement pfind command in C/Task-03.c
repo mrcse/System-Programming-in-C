@@ -53,14 +53,16 @@ void pfind(const char *dir,const char *fileName){
             }
         }
     }
+    if (getcwd(mycwd, 255) == NULL)
+        perror("Failed to get current working directory");
     if(closedir(dir)==-1)
-        printf("Error: Closing Director: %s",dir);   
+        printf("Error: Failed to close Directory '%s'\n",mycwd);    
 }
 int main(int argc, const char *argv[])
 {   
     if(argc != 3){
         printf("\nError: %s required arguments [Path] [File]\n\n",argv[0]);
-		exit(EXIT_FAILURE);
+	exit(EXIT_FAILURE);
     }
     pfind(argv[1],argv[2]);
     if(flag==0)
