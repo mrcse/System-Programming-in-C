@@ -49,7 +49,7 @@ void depth_first_order(const char *dir,int indent)
     }
     if (getcwd(mycwd, 255) == NULL)
         perror("Failed to get current working directory");
-    if(closedir(dir)==-1)
+    if(closedir(dirp)==-1)
         printf("Error: Failed to close Directory '%s'\n",mycwd);  
 }
 int main(int argc, const char *argv[])
