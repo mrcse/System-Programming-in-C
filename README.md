@@ -12,7 +12,7 @@ To download the latest version of this repository in a ZIP file, use this [link]
 To download this repository onto a Linux machine that has git installed, try:
 
     git clone https://github.com/mrcse/System-Programming-in-C.git
-    cd sys-prog-examples
+    cd System-Programming-in-C
 
 To ensure that your copy of the repository is up-to-date, run the following when you are in the System-Programming-in-C directory:
 
