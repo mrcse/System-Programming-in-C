@@ -47,15 +47,17 @@ void depth_first_order(const char *dir,int indent)
             }
         }
     }
+    if (getcwd(mycwd, 255) == NULL)
+        perror("Failed to get current working directory");
     if(closedir(dir)==-1)
-        printf("Error: Closing Director: %s",dir);
+        printf("Error: Failed to close Directory '%s'\n",mycwd);  
 }
 int main(int argc, const char *argv[])
 {   
     int indent=0;
     if(argc != 2){
         printf("\nError: %s required argument [Path]\n\n",argv[0]);
-		exit(EXIT_FAILURE);
+	exit(EXIT_FAILURE);
     }
     depth_first_order(argv[1],indent);
     printf("\n");
